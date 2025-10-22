@@ -19,7 +19,8 @@ z = 1
 print(type(x), type(y), type(z))
 
 #Float
-#Float, or "floating point number" is a number, positive or negative, containing one or more decimals.
+#Float, or "floating point number" is a number, positive or negative,
+# containing one or more decimals.
 
 x = 1.0
 y = -576.5
@@ -34,10 +35,10 @@ x = 5j
 x = -6j
 print(x, type(x), y , type(y), z ,type(z))
 
-""""Random Number
+""""
+Random Number
 Python does not have a random() function to make a random number, 
 but Python has a built-in module called random that can be used to make random numbers:
-
 """
 import random
 
