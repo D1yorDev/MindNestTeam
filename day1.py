@@ -100,4 +100,43 @@ print(y)
 print(z)
 
 
+x = "Python"
+y = "is"
+z = "awesome"
+print(x)
+print(y)
+print(z)
+print(x, y, z)
 
+x = "Said"
+y = "Diyor"
+print(x , y)
+
+
+#Python Global Variables
+x = "Best one"
+
+def diyor():
+    print("Python is " + x)
+
+diyor()
+
+
+
+def myfun():
+    global b
+    b = "Diyor"
+    print("My name is " + b)
+
+myfun()
+print(b)
+
+#Getting the Data Type
+
+x = 5
+y = "Name"
+z = range(3)
+print(z)
+print(type(x))
+print(type(y))
+print(type(z))
