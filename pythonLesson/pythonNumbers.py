@@ -44,3 +44,6 @@ import random
 
 print(random.randrange(1, 10))
 print (random.randrange(1,99))
+
+x = 2.88
+print(int(x))
