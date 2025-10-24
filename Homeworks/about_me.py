@@ -8,8 +8,8 @@ learning journey!"""
 
 name = input("What is your name? ")
 age = input("How old Are you? ")
-AI = input("Favorite AI Tool's name?")
+AI = input("Favorite AI Tool's name? ")
 
-result = f"Hello {name}, You are {age} years old and love {AI}.Welcome to the AI Learning Journey!"
+result = f"Hello {name}, You are {age} years old and love {AI}. Welcome to the AI Learning Journey!"
 
 print(result)
