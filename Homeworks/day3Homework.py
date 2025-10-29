@@ -32,4 +32,4 @@ max_value = max(scores.values())
 for key, value in scores.items():
     if value == max_value:
         max_key = key
-print(max_key, max_value)
+print(f"The Student with Hight Score is {max_key} and his score is {max_value}")
